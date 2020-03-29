@@ -1,0 +1,64 @@
+root@C.486636:/workspace/code/alpha-zero-general$ python main.py
+Successfully loaded model: ./temp/best.pth.tar
+Load trainExamples from file
+File with trainExamples found. Read it.
+------ITER 1------
+Checkpoint Directory exists!
+Successfully loaded model: ./temp/temp.pth.tar
+EPOCH ::: 1
+Training Net |##########| (8803/8803) Data: 0.003s|Batch: 0.019s|Total: 0:02:50|ETA: 0:00:01|Loss_pi: 1.5024|Loss_v: 0.212
+EPOCH ::: 2
+Training Net |##########| (8803/8803) Data: 0.003s|Batch: 0.019s|Total: 0:02:48|ETA: 0:00:01|Loss_pi: 1.4861|Loss_v: 0.209
+EPOCH ::: 3
+Training Net |##########| (8803/8803) Data: 0.003s|Batch: 0.019s|Total: 0:02:46|ETA: 0:00:01|Loss_pi: 1.4754|Loss_v: 0.205
+EPOCH ::: 4
+Training Net |##########| (8803/8803) Data: 0.003s|Batch: 0.019s|Total: 0:02:45|ETA: 0:00:01|Loss_pi: 1.4623|Loss_v: 0.205
+EPOCH ::: 5
+Training Net |##########| (8803/8803) Data: 0.003s|Batch: 0.019s|Total: 0:02:43|ETA: 0:00:01|Loss_pi: 1.4524|Loss_v: 0.204
+EPOCH ::: 6
+Training Net |##########| (8803/8803) Data: 0.003s|Batch: 0.018s|Total: 0:02:40|ETA: 0:00:01|Loss_pi: 1.4396|Loss_v: 0.202
+EPOCH ::: 7
+Training Net |##########| (8803/8803) Data: 0.003s|Batch: 0.018s|Total: 0:02:35|ETA: 0:00:01|Loss_pi: 1.4299|Loss_v: 0.199
+EPOCH ::: 8
+Training Net |##########| (8803/8803) Data: 0.003s|Batch: 0.018s|Total: 0:02:36|ETA: 0:00:01|Loss_pi: 1.4247|Loss_v: 0.199
+EPOCH ::: 9
+Training Net |##########| (8803/8803) Data: 0.003s|Batch: 0.018s|Total: 0:02:35|ETA: 0:00:01|Loss_pi: 1.4121|Loss_v: 0.197
+EPOCH ::: 10
+Training Net |##########| (8803/8803) Data: 0.003s|Batch: 0.018s|Total: 0:02:40|ETA: 0:00:01|Loss_pi: 1.4026|Loss_v: 0.196
+PITTING AGAINST PREVIOUS VERSION
+Arena.playGames |##########| (40/40) Eps Time: 9.021s | Total: 0:06:00 | ETA: 0:00:10
+NEW/PREV WINS : 16 / 24 ; DRAWS : 0
+REJECTING NEW MODEL
+Successfully loaded model: ./temp/temp.pth.tar
+------ITER 2------
+Self Play |##########| (100/100) Eps Time: 9.171s | Total: 0:15:17 | ETA: 0:00:11
+len(trainExamplesHistory) = 21  => remove the oldest trainExamples
+Checkpoint Directory exists!
+Successfully loaded model: ./temp/temp.pth.tar
+EPOCH ::: 1
+Training Net |##########| (8677/8677) Data: 0.003s|Batch: 0.027s|Total: 0:03:51|ETA: 0:00:01|Loss_pi: 1.6120|Loss_v: 0.260
+EPOCH ::: 2
+Training Net |##########| (8677/8677) Data: 0.003s|Batch: 0.028s|Total: 0:04:07|ETA: 0:00:01|Loss_pi: 1.5792|Loss_v: 0.241
+EPOCH ::: 3
+Training Net |##########| (8677/8677) Data: 0.003s|Batch: 0.024s|Total: 0:03:25|ETA: 0:00:01|Loss_pi: 1.5520|Loss_v: 0.230
+EPOCH ::: 4
+Training Net |##########| (8677/8677) Data: 0.003s|Batch: 0.019s|Total: 0:02:46|ETA: 0:00:01|Loss_pi: 1.5314|Loss_v: 0.226
+EPOCH ::: 5
+Training Net |##########| (8677/8677) Data: 0.003s|Batch: 0.023s|Total: 0:03:17|ETA: 0:00:01|Loss_pi: 1.5111|Loss_v: 0.219
+EPOCH ::: 6
+Training Net |##########| (8677/8677) Data: 0.003s|Batch: 0.026s|Total: 0:03:42|ETA: 0:00:01|Loss_pi: 1.4928|Loss_v: 0.216
+EPOCH ::: 7
+Training Net |##########| (8677/8677) Data: 0.003s|Batch: 0.027s|Total: 0:03:56|ETA: 0:00:01|Loss_pi: 1.4769|Loss_v: 0.213
+EPOCH ::: 8
+Training Net |##########| (8677/8677) Data: 0.003s|Batch: 0.028s|Total: 0:04:05|ETA: 0:00:01|Loss_pi: 1.4640|Loss_v: 0.211
+EPOCH ::: 9
+Training Net |##########| (8677/8677) Data: 0.003s|Batch: 0.028s|Total: 0:04:07|ETA: 0:00:01|Loss_pi: 1.4551|Loss_v: 0.210
+EPOCH ::: 10
+Training Net |##########| (8677/8677) Data: 0.003s|Batch: 0.028s|Total: 0:04:06|ETA: 0:00:01|Loss_pi: 1.4429|Loss_v: 0.208
+PITTING AGAINST PREVIOUS VERSION
+Arena.playGames |##########| (40/40) Eps Time: 10.501s | Total: 0:07:00 | ETA: 0:00:08
+NEW/PREV WINS : 18 / 20 ; DRAWS : 2
+REJECTING NEW MODEL
+Successfully loaded model: ./temp/temp.pth.tar
+------ITER 3------
+Self Play |#####     | (54/100) Eps Time: 9.646s | Total: 0:08:40 | ETA: 0:09:47

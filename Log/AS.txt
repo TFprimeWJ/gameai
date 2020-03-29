@@ -1,0 +1,22 @@
+password: 11223344
+
+'sha1:fc4c65274158:67c28f4c907317370c693058e366c18f3ff505ca'
+
+c.NotebookApp.allow_remote_access = True
+c.NotebookApp.ip = '*'
+c.NotebookApp.password = u'sha1:fc4c65274158:67c28f4c907317370c693058e366c18f3ff505ca'
+c.NotebookApp.open_browser = False
+c.NotebookApp.port = 8888
+
+
+
+'sha1:bf6905a5432d:5366a399666e86b8fa0dcf45e38bc7af4b312d71'
+
+c.NotebookApp.allow_remote_access = True
+c.NotebookApp.ip = '*'
+c.NotebookApp.password = u'sha1:bf6905a5432d:5366a399666e86b8fa0dcf45e38bc7af4b312d71'
+c.NotebookApp.open_browser = False
+c.NotebookApp.port = 8888
+
+
+tar -zcvf page41.tar.gz page41

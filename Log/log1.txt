@@ -1,0 +1,91 @@
+root@C.486636:/workspace/code/alpha-zero-general$ python main.py
+Successfully loaded model: ./temp/best.pth.tar
+Load trainExamples from file
+File with trainExamples found. Read it.
+------ITER 1------
+Checkpoint Directory exists!
+Successfully loaded model: ./temp/temp.pth.tar
+EPOCH ::: 1
+Training Net |##########| (1005/1005) Data: 0.003s|Batch: 0.021s|Total: 0:00:21|ETA: 0:00:01|Loss_pi: 2.5143|Loss_v: 0.472
+EPOCH ::: 2
+Training Net |##########| (1005/1005) Data: 0.003s|Batch: 0.022s|Total: 0:00:21|ETA: 0:00:01|Loss_pi: 2.2858|Loss_v: 0.252
+EPOCH ::: 3
+Training Net |##########| (1005/1005) Data: 0.003s|Batch: 0.022s|Total: 0:00:21|ETA: 0:00:01|Loss_pi: 2.1484|Loss_v: 0.202
+EPOCH ::: 4
+Training Net |##########| (1005/1005) Data: 0.003s|Batch: 0.023s|Total: 0:00:22|ETA: 0:00:01|Loss_pi: 2.0401|Loss_v: 0.179
+EPOCH ::: 5
+Training Net |##########| (1005/1005) Data: 0.003s|Batch: 0.024s|Total: 0:00:24|ETA: 0:00:01|Loss_pi: 1.9348|Loss_v: 0.165
+EPOCH ::: 6
+Training Net |##########| (1005/1005) Data: 0.003s|Batch: 0.022s|Total: 0:00:22|ETA: 0:00:01|Loss_pi: 1.8584|Loss_v: 0.152
+EPOCH ::: 7
+Training Net |##########| (1005/1005) Data: 0.003s|Batch: 0.022s|Total: 0:00:22|ETA: 0:00:01|Loss_pi: 1.7797|Loss_v: 0.149
+EPOCH ::: 8
+Training Net |##########| (1005/1005) Data: 0.003s|Batch: 0.023s|Total: 0:00:23|ETA: 0:00:01|Loss_pi: 1.7141|Loss_v: 0.143
+EPOCH ::: 9
+Training Net |##########| (1005/1005) Data: 0.003s|Batch: 0.026s|Total: 0:00:26|ETA: 0:00:01|Loss_pi: 1.6638|Loss_v: 0.136
+EPOCH ::: 10
+Training Net |##########| (1005/1005) Data: 0.003s|Batch: 0.025s|Total: 0:00:25|ETA: 0:00:01|Loss_pi: 1.6275|Loss_v: 0.134
+PITTING AGAINST PREVIOUS VERSION
+Arena.playGames |##########| (40/40) Eps Time: 12.973s | Total: 0:08:38 | ETA: 0:00:13
+NEW/PREV WINS : 21 / 19 ; DRAWS : 0
+REJECTING NEW MODEL
+Successfully loaded model: ./temp/temp.pth.tar
+------ITER 2------
+Self Play |##########| (100/100) Eps Time: 10.381s | Total: 0:17:18 | ETA: 0:00:10
+Checkpoint Directory exists!
+Successfully loaded model: ./temp/temp.pth.tar
+EPOCH ::: 1
+Training Net |##########| (1480/1480) Data: 0.002s|Batch: 0.016s|Total: 0:00:23|ETA: 0:00:01|Loss_pi: 2.6816|Loss_v: 0.591
+EPOCH ::: 2
+Training Net |##########| (1480/1480) Data: 0.002s|Batch: 0.016s|Total: 0:00:23|ETA: 0:00:01|Loss_pi: 2.4662|Loss_v: 0.309
+EPOCH ::: 3
+Training Net |##########| (1480/1480) Data: 0.002s|Batch: 0.017s|Total: 0:00:25|ETA: 0:00:01|Loss_pi: 2.3078|Loss_v: 0.246
+EPOCH ::: 4
+Training Net |##########| (1480/1480) Data: 0.002s|Batch: 0.015s|Total: 0:00:22|ETA: 0:00:01|Loss_pi: 2.1641|Loss_v: 0.216
+EPOCH ::: 5
+Training Net |##########| (1480/1480) Data: 0.002s|Batch: 0.016s|Total: 0:00:24|ETA: 0:00:01|Loss_pi: 2.0535|Loss_v: 0.197
+EPOCH ::: 6
+Training Net |##########| (1480/1480) Data: 0.002s|Batch: 0.016s|Total: 0:00:23|ETA: 0:00:01|Loss_pi: 1.9397|Loss_v: 0.183
+EPOCH ::: 7
+Training Net |##########| (1480/1480) Data: 0.002s|Batch: 0.016s|Total: 0:00:24|ETA: 0:00:01|Loss_pi: 1.8610|Loss_v: 0.172
+EPOCH ::: 8
+Training Net |##########| (1480/1480) Data: 0.002s|Batch: 0.016s|Total: 0:00:24|ETA: 0:00:01|Loss_pi: 1.7676|Loss_v: 0.167
+EPOCH ::: 9
+Training Net |##########| (1480/1480) Data: 0.002s|Batch: 0.016s|Total: 0:00:24|ETA: 0:00:01|Loss_pi: 1.7219|Loss_v: 0.160
+EPOCH ::: 10
+Training Net |##########| (1480/1480) Data: 0.002s|Batch: 0.016s|Total: 0:00:24|ETA: 0:00:01|Loss_pi: 1.6530|Loss_v: 0.155
+PITTING AGAINST PREVIOUS VERSION
+Arena.playGames |##########| (40/40) Eps Time: 10.279s | Total: 0:06:51 | ETA: 0:00:11
+NEW/PREV WINS : 18 / 21 ; DRAWS : 1
+REJECTING NEW MODEL
+Successfully loaded model: ./temp/temp.pth.tar
+------ITER 3------
+Self Play |##########| (100/100) Eps Time: 9.152s | Total: 0:15:15 | ETA: 0:00:10
+Checkpoint Directory exists!
+Successfully loaded model: ./temp/temp.pth.tar
+EPOCH ::: 1
+Training Net |##########| (1959/1959) Data: 0.002s|Batch: 0.017s|Total: 0:00:33|ETA: 0:00:01|Loss_pi: 2.7819|Loss_v: 0.639
+EPOCH ::: 2
+Training Net |##########| (1959/1959) Data: 0.002s|Batch: 0.017s|Total: 0:00:33|ETA: 0:00:01|Loss_pi: 2.5473|Loss_v: 0.336
+EPOCH ::: 3
+Training Net |##########| (1959/1959) Data: 0.002s|Batch: 0.017s|Total: 0:00:33|ETA: 0:00:01|Loss_pi: 2.3836|Loss_v: 0.266
+EPOCH ::: 4
+Training Net |##########| (1959/1959) Data: 0.003s|Batch: 0.019s|Total: 0:00:38|ETA: 0:00:01|Loss_pi: 2.2517|Loss_v: 0.236
+EPOCH ::: 5
+Training Net |##########| (1959/1959) Data: 0.002s|Batch: 0.017s|Total: 0:00:32|ETA: 0:00:01|Loss_pi: 2.1285|Loss_v: 0.211
+EPOCH ::: 6
+Training Net |##########| (1959/1959) Data: 0.002s|Batch: 0.018s|Total: 0:00:35|ETA: 0:00:01|Loss_pi: 2.0216|Loss_v: 0.197
+EPOCH ::: 7
+Training Net |##########| (1959/1959) Data: 0.002s|Batch: 0.018s|Total: 0:00:35|ETA: 0:00:01|Loss_pi: 1.9211|Loss_v: 0.186
+EPOCH ::: 8
+Training Net |##########| (1959/1959) Data: 0.002s|Batch: 0.018s|Total: 0:00:36|ETA: 0:00:01|Loss_pi: 1.8402|Loss_v: 0.176
+EPOCH ::: 9
+Training Net |##########| (1959/1959) Data: 0.002s|Batch: 0.018s|Total: 0:00:35|ETA: 0:00:01|Loss_pi: 1.7662|Loss_v: 0.171
+EPOCH ::: 10
+Training Net |##########| (1959/1959) Data: 0.003s|Batch: 0.019s|Total: 0:00:36|ETA: 0:00:01|Loss_pi: 1.7062|Loss_v: 0.165
+PITTING AGAINST PREVIOUS VERSION
+Arena.playGames |##########| (40/40) Eps Time: 10.112s | Total: 0:06:44 | ETA: 0:00:10
+NEW/PREV WINS : 24 / 16 ; DRAWS : 0
+ACCEPTING NEW MODEL
+Checkpoint Directory exists!
+Checkpoint Directory exists!
