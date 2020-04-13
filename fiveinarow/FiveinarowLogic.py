@@ -1,8 +1,8 @@
 from collections import namedtuple
 import numpy as np
 
-DEFAULT_HEIGHT = 15
-DEFAULT_WIDTH = 15
+DEFAULT_HEIGHT = 10
+DEFAULT_WIDTH = 10
 DEFAULT_WIN_LENGTH = 5 # 5个子连在一起就算赢
 
 WinState = namedtuple('WinState', 'is_ended winner')

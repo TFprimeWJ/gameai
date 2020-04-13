@@ -91,7 +91,7 @@ class NNetWrapper(NeuralNet):
                 batch_idx += 1
 
                 # plot progress
-                bar.suffix  = '({batch}/{size}) Data: {data:.3f}s | Batch: {bt:.3f}s | Total: {total:} | ETA: {eta:} | Loss_pi: {lpi:.4f} | Loss_v: {lv:.3f}'.format(
+                bar.suffix  = '({batch}/{size}) Data:{data:.3f}s|Batch:{bt:.3f}s|Total:{total:}|ETA:{eta:}|Loss_pi:{lpi:.4f}|Loss_v: {lv:.3f}'.format(
                             batch=batch_idx,
                             size=int(len(examples)/args.batch_size),
                             data=data_time.avg,

@@ -1,6 +1,6 @@
 from Coach import Coach
-from othello.OthelloGame import OthelloGame as Game
-from othello.pytorch.NNet import NNetWrapper as nn
+from fiveinarow.FiveinarowGame import FiveinarowGame as Game
+from fiveinarow.pytorch.NNet import NNetWrapper as nn
 from utils import *
 
 args = dotdict({
@@ -15,13 +15,13 @@ args = dotdict({
 
     'checkpoint': './temp/',
     'load_model': False,
-    'load_folder_file': ('./temp','best.pth.tar'),
+    'load_folder_file': ('./temp/','best.pth.tar'),
     'numItersForTrainExamplesHistory': 20,
 
 })
 
 if __name__ == "__main__":
-    g = Game(6)
+    g = Game()
     nnet = nn(g)
 
     if args.load_model:

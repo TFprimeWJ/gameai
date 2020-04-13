@@ -74,7 +74,7 @@ class FiveinarowGame(Game):
                 if j:
                     newB = np.fliplr(newB)
                     newPi = np.fliplr(newPi)
-                l += [(newB, list(newPi.ravel()) + [pi[-1]])]
+                l += [(newB, list(newPi.ravel()))]
         return l
 
     def stringRepresentation(self, board):

@@ -41,7 +41,7 @@ if human_vs_cpu:
     player2 = hp
 else:
     n2 = NNet(g)
-    n2.load_checkpoint('./temp/best', 'best.pth1.tar')
+    n2.load_checkpoint('./temp', 'best.pth.tar')
     args2 = dotdict({'numMCTSSims': 50, 'cpuct': 1.0})
     mcts2 = MCTS(g, n2, args2)
     n2p = lambda x: np.argmax(mcts2.getActionProb(x, temp=0))
@@ -50,4 +50,4 @@ else:
 
 arena = Arena.Arena(n1p, n2p, g, display=FiveinarowGame.display)
 
-print(arena.playGames(40, verbose=True))
+print(arena.playGames(10, verbose=True))
